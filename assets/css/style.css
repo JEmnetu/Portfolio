@@ -1,0 +1,19 @@
+#brand {
+    color: white;
+}
+
+.main-content {
+    background-color: white;
+    border: solid 2px black;
+    margin-top: 7em;
+    height: 20em;
+}
+
+#profilePic {
+    margin-top: 1em;
+    border-radius: 4px;
+}
+
+#main-paragraph {
+    margin-top: 1em;
+}
