@@ -88,13 +88,14 @@ body {
     /* position: fixed;
     bottom: 0;
     width: 100%; */
-    background-color: gray;
+    background-color: rgb(26, 26, 26);
     height: 7%;
 }
 
 .footer p {
     margin-top: 20px;
     text-align: center;
+    color: beige;
 }
 
 .card-group {
