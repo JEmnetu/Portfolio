@@ -1,3 +1,7 @@
+* {
+    font-family: 'Raleway', sans-serif
+}
+
 .container {
     overflow-y: auto;
 }
@@ -16,6 +20,7 @@ body {
     margin-top: 4em;
     height: 20em;
     overflow-y: auto;
+    border-radius: 5px;
 }
 
 .main-contact {
@@ -24,6 +29,7 @@ body {
     padding-bottom: 4em;
     padding-top: 1em;
     border: solid 2px black;
+    border-radius: 5px;
     /*border: solid 2px black;
     margin-top: 7em;
     height: 20em;
@@ -66,7 +72,7 @@ body {
 /* Linkedin  */
 
 .fa-linkedin-square {
-    background: blue;
+    background: rgb(0, 110, 255);
     color: white;
 }
 
@@ -93,10 +99,12 @@ body {
 
 .card-group {
     margin-top: 3em;
+    border-radius: 8px;
 }
 
 .card-img-top {
     border: solid 2px black;
+    border-radius: 5px;
     height: 300px;
     width: 200px;
 }
