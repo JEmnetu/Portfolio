@@ -1,3 +1,11 @@
+.container {
+    overflow-y: auto;
+}
+
+body {
+    background-image: url("/assets/images/criss-cross.png");
+}
+
 #brand {
     color: white;
 }
@@ -5,8 +13,30 @@
 .main-content {
     background-color: white;
     border: solid 2px black;
+    margin-top: 4em;
+    height: 20em;
+    overflow-y: auto;
+}
+
+.main-contact {
+    margin-top: 4em;
+    background-color: white;
+    padding-bottom: 4em;
+    padding-top: 1em;
+    border: solid 2px black;
+    /*border: solid 2px black;
     margin-top: 7em;
     height: 20em;
+    padding-left: 10em;
+    padding-right: 5em; */
+}
+
+#mainProjects {
+    margin-top: 1em;
+}
+
+#contactHead {
+    margin-left: 1em;
 }
 
 #profilePic {
@@ -21,9 +51,11 @@
 .fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
+    width: 30px;
+    height: 30px;
     text-align: center;
     text-decoration: none;
+    border-radius: 3px;
 }
 
 .fa:hover {
@@ -33,10 +65,9 @@
 
 /* Linkedin  */
 
-.fa-linkedin {
-    background: #3B5998;
+.fa-linkedin-square {
+    background: blue;
     color: white;
-    margin-right: -5px;
 }
 
 
@@ -45,4 +76,57 @@
 .fa-github {
     background: black;
     color: white;
+}
+
+.footer {
+    /* position: fixed;
+    bottom: 0;
+    width: 100%; */
+    background-color: gray;
+    height: 7%;
+}
+
+.footer p {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card-group {
+    margin-top: 3em;
+}
+
+.card-img-top {
+    border: solid 2px black;
+    height: 300px;
+    width: 200px;
+}
+
+#contactSubmit {
+    margin-top: 1em;
+}
+
+#socialLinks {
+    margin-top: 1em;
+    text-align: center;
+}
+
+
+/* textarea {
+    height: 10em;
+} */
+
+@media only screen and (max-width: 767px) {
+    .main-content {
+        height: 40em;
+        overflow: hidden;
+        margin-bottom: 5em;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    #main-paragraph {
+        margin-left: 3em;
+        margin-bottom: 5em;
+        height: 60em;
+    }
 }
