@@ -60,14 +60,15 @@ body {
     margin-top: 1em;
 }
 
-.fa {
+.fab {
     padding: 20px;
     font-size: 30px;
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 70px;
     text-align: center;
     text-decoration: none;
     border-radius: 3px;
+    text-align: center;
 }
 
 .fa:hover {
@@ -77,7 +78,7 @@ body {
 
 /* Linkedin  */
 
-.fa-linkedin-square {
+.fa-linkedin {
     background: rgb(0, 110, 255);
     color: white;
 }
@@ -88,6 +89,10 @@ body {
 .fa-github {
     background: black;
     color: white;
+    margin-right: 3em;
+    /* height: 30px;
+    width: 30px;
+    border-radius: 6px; */
 }
 
 .footer {
@@ -123,6 +128,10 @@ body {
 #socialLinks {
     margin-top: 1em;
     text-align: center;
+}
+
+#icon-group {
+    margin-left: 25em;
 }
 
 
