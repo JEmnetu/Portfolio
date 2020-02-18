@@ -10,6 +10,11 @@ body {
     background-image: url("../images/criss-cross.png");
 }
 
+html,
+body {
+    height: 100%;
+}
+
 #brand {
     color: white;
 }
@@ -40,11 +45,17 @@ body {
     height: 20em;
     padding-left: 10em;
     padding-right: 5em; */
+    padding-bottom: 4em;
+}
+
+#wrapper {
+    min-height: 100%;
 }
 
 #mainProjects {
     margin-top: 1em;
     margin-bottom: 7em;
+    padding-bottom: 4em;
 }
 
 #contactHead {
@@ -100,7 +111,10 @@ body {
     bottom: 0;
     width: 100%; */
     background-color: rgb(26, 26, 26);
-    height: 4%;
+    height: 4em;
+    margin-top: -4em;
+    position: relative;
+    clear: both;
 }
 
 .footer p {
@@ -132,6 +146,10 @@ body {
 
 #icon-group {
     margin-left: 25em;
+}
+
+#mainTest {
+    min-height: 100%;
 }
 
 
